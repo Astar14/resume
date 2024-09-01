@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+}
+.container h1{
+    text-align: center;
+    color: purple;
+}
+.container p{
+    text-align: center;
+}
+.underline{
+    border-bottom: 1px solid purple;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2{
+    color: purple;
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+}
+.summary p{
+    text-align: start;
+    margin-left: 10px;
+}
+.work p{
+    text-align: start;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+.work ul li{
+    margin-left: 23px;
+}
+.clg{
+    display: flex;
+    justify-content: space-between;
+}
+.school{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.edu .p{
+    text-align: start;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+.personal li{
+    margin-left: 20px;
+    margin-top: 3px;
+}
